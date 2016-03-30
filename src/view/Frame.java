@@ -3,9 +3,6 @@ package view;
 import java.awt.Container;
 
 import javax.swing.*;
-
-import chat.controller.ChatController;
-import chat.view.ChatPanel;
 import model.CancerController;
 
 public class Frame extends JFrame
