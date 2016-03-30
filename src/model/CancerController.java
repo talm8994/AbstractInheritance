@@ -2,7 +2,7 @@ package model;
 
 import java.util.ArrayList;
 
-public abstract class Cancer
+public abstract class CancerController
 {
 	private double Type;
 	private ArrayList<String> cause;

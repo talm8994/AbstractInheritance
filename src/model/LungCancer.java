@@ -1,6 +1,6 @@
 package model;
 
-public class LungCancer extends Cancer
+public class LungCancer extends CancerController
 {
 	 public LungCancer()
 	 {

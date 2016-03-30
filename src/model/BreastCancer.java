@@ -1,6 +1,6 @@
 package model;
 
-public class BreastCancer extends Cancer
+public class BreastCancer extends CancerController
 {
 	
 }
