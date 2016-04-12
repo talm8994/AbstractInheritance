@@ -2,7 +2,7 @@ package model;
 
 import java.util.ArrayList;
 
-public abstract class CancerController
+public abstract class CancerController, Comparable
 {
 	private double Type;
 	private ArrayList<String> cause;
@@ -32,6 +32,13 @@ public abstract class CancerController
 	public void setCureable(boolean isCureable)
 	{
 		this.isCureable = isCureable;
+	}
+	
+	String toString()
+	{
+		String cancerDescripiption = "This is cancer " + this.getClass().getName() + " and is bad level" + getType();
+		
+		return cancerDescripiption;
 	}
 	
 }
